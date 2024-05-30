@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsible.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <title>Quest JavaScript Intermediário - Formulário</title>
+</head>
+
+<body>
+
+    <main>
+
+        <section class="conteudo">
+
+            <div class="texto">
+
+                <h1>FICOU COM DÚVIDA? <br> NOS MANDE UMA MENSAGEM!</h1>
+
+                <p>caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos
+                    de
+                    24h.</p>
+
+            </div>
+
+            <form action="#" method="get" class="formulario">
+
+                <input type="text" id="nome" class="input-texto" placeholder="Nome Completo *">
+                <span class="erro">campo obrigatório</span>
+                <input type="text" id="email " class="input-texto" placeholder="Email *">
+                <span class="erro">campo obrigatório</span>
+                <input type="text" id="telefone" class="input-texto" placeholder="Telefone *">
+                <span class="erro">campo obrigatório</span>
+
+                <textarea name="mensagem" id="mensagem" class="input-texto" placeholder="Mensagem *" cols="30"
+                    rows="10"></textarea>
+                <span class="erro">campo obrigatório</span>
+
+                <span class="campo-obrigatorio">*campos obrigatórios</span>
+
+                <button class="btn" type="submit">Enviar</button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
